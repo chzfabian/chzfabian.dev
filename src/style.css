@@ -1,0 +1,71 @@
+body{
+    background-image: url(../../halloweenpage/assets/img/about-img.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(179,140,0,1) 28%, rgba(255,252,0,1) 100%);
+}
+
+/* FontsGoogle */
+.bebas-neue-regular .h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+/* Barra de menú lateral  */
+.sidebar_nav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 10%;
+}
+
+.sidebar_nav a {
+    padding: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    display: block;
+    text-align: justify;
+}
+
+.sidebar_nav a:hover{
+    color: #000;
+    font-weight: 700;
+    background-color: #ebd409;
+    border-radius: 10px;
+}
+.sidebar_nav i{
+    margin-right: 5px;
+}
+
+/* Main derecho de barra */
+.content_main{
+    margin-left: 160px;
+    font-size: 22px;
+    padding: 0 10px;
+}
+
+.content_main p {
+    text-align: justify;
+}
+
+/* Imagen de perfil */
+.perfil {
+    margin: 2% auto;
+    width: 20%;
+    height: 20%;
+    float: left;
+    border: 3px solid #ebd409;
+    border-radius: 10px;
+    margin-right: 20px;
+}
